@@ -1,0 +1,788 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: #1e162eff;
+    justify-content: space-around;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    height: 4px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+.barra {
+    color: gray;
+}
+
+.Download {
+    border-radius: 5px;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #7c45d6ff, #1576d6ff);
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.Product {
+    background-color: #2e244fff;
+    justify-content: space-between;
+    display: flex;
+    height: 90vh;
+    color: white;
+    align-items: center;
+}
+
+h1 {
+    font-size: 75px;
+    margin-left: 27%;
+}
+
+h4 {
+    font-size: 20px;
+    margin-left: 27%;
+}
+
+.Fondo_transparente {
+    background-color: rgba(44, 44, 44, 0.418);
+    width: 100%;
+    height: 100%;
+}
+
+.telefono {
+    margin-left: 110px;
+    margin-top: 20%;
+    height: 75%;
+}
+
+aside {
+    width: 55%;
+    background-image: url(../Assets/hojasFondo.jpg);
+    background-position: center;
+    height: 100%;
+    background-size: cover;
+}
+
+.Botones {
+    margin-left: 27%;
+    margin-right: 20%;
+    border: 2px solid #544d70;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.Boton_1 {
+    background-color: white;
+    border: none;
+    border-radius: 0.4rem;
+    width: 500px;
+}
+
+.Boton_2 {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    color: white;
+    padding: 1rem 1.4rem;
+    font-size: 20px;
+}
+
+
+
+.span {
+    background: linear-gradient(to right, #ed66ac, #f51689);
+    font-size: 20px;
+    font-weight: 600;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Foncti {
+    background-color: #f2f3f7;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    color: #f51488;
+    align-items: center;
+    font-size: 18px;
+}
+
+.Alpha {
+    width: 30%;
+    margin-top: 75px;
+    width: 60%;
+}
+
+h2 {
+    color: #c2538c;
+    font-size: 48px;
+}
+
+.Parrafo_1 {
+    color: #7c7c7d;
+    width: 80%;
+}
+
+.Titulo_1 {
+    font-size: 60px;
+    margin-left: 0%;
+    color: #f51488;
+    margin-top: 45px;
+}
+
+.Laptop {
+    margin-left: 27%;
+    width: 50%;
+    margin-top: 80px;
+}
+
+.Particion {
+    display: flex;
+}
+
+.Chulo {
+    width: 4%;
+    border-radius: 100%;
+}
+
+.Plans_1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    background-color: #1e162e;
+}
+
+.Titulo_2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 75px;
+}
+
+.Plans_2 {
+    color: #fff;
+    width: 60%;
+    font-size: 17px;
+}
+
+.Containers {
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.Items {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    width: 35%;
+    border-radius: 6px;
+    color: #1e162e;
+    margin-left: 100px;
+}
+
+.Lite {
+    color: #f51488;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    width: 80%;
+}
+
+.Precio {
+    display: flex;
+    font-size: 18px;
+
+    span:first-child {
+        font-size: 45px;
+    }
+}
+
+
+ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.Letra {
+    color: #757578;
+}
+
+.Letra_Gris {
+    color: #757578;
+}
+
+.Letra_Rosa {
+    color: #f51687;
+}
+
+.Subscribe {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #2e244fff;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+.boton-rosa {
+    background: linear-gradient(to right, #ed66ac, #f51689);
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+}
+
+footer {
+    width: 100%;
+    font-size: 26px;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    color: #2e244fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+
+}
+
+.copyright {
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.copyright span {
+    color: #f51488;
+}
+
+.Redes_sociales {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 0px;
+    margin-right: 50px;
+}
+
+.Redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 52px;
+    width: 50%;
+}
+
+
+@media screen and (min-width:352px) and (max-width: 480px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        width: 100%;
+        padding-bottom: 2%;
+    }
+
+    header img {
+        width: 35%;
+        clip-path: inset(5% 5% 10% 0%);
+    }
+
+    .Product {
+        background-image: none;
+        width: 100%;
+        height: 550px;
+    }
+
+    .Product_1 {
+
+        width: 100%;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 50px;
+        justify-content: center;
+        margin-left: 0px;
+        padding-right: 20%;
+    }
+
+    h4 {
+        font-size: 15px;
+        margin: 0 40px;
+        padding-right: 30%;
+    }
+
+    .Botones {
+        margin: 20px 35px;
+        height: 10%;
+
+    }
+
+    .span {
+        font-size: 13px;
+    }
+
+    .Boton_1 {
+        width: 50%;
+    }
+
+    .Boton_2 {
+        font-size: 13px;
+
+    }
+
+    ul {
+        font-size: 12px;
+    }
+
+    nav ul {
+        font-size: 15px;
+        gap: 15px;
+        margin-left: 30px;
+    }
+
+    .Download {
+        padding: 9px 4px;
+        font-size: 15px;
+        margin-right: 9px;
+        margin-left: 3px;
+    }
+
+    .Fondo_transparente {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        width: 100%;
+
+
+    }
+
+    .Parrafo_1 {
+        margin: 0 5%;
+        font-size: 13px;
+    }
+
+    .Marketing {
+        margin: 0 10%;
+        font-size: 16px;
+
+    }
+
+    .Foncti {
+        width: 100%;
+        height: 54%;
+        padding-bottom: 10px;
+        padding-top: 5%;
+    }
+
+    .Titulo_1 {
+        font-size: 35px;
+        margin-top: 0px;
+
+    }
+
+    .Chulo {
+        width: 13px;
+    }
+
+    .Alpha {
+        width: 90%;
+        height: 20%;
+        margin-top: 0px;
+
+    }
+
+    .Particion {
+        display: contents;
+    }
+
+    .Plans_1 {
+        gap: 30px;
+    }
+
+    .Titulo_2 {
+        font-size: 40px;
+    }
+
+    .Containers {
+        display: contents;
+    }
+
+    .Items {
+        width: 80%;
+        margin-right: 20%;
+
+    }
+
+    .Laptop {
+        margin-top: 0px;
+    }
+
+    .Plans_2 {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    .Letra_Rosa {
+        font-size: 15px;
+    }
+
+    .Letra {
+        font-size: 15px;
+    }
+
+    .Letra_Gris {
+        font-size: 15px;
+    }
+
+    .copyright {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .Redes_sociales {
+        margin-right: 10px;
+    }
+
+    footer {
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 160px;
+        padding-top: 0px;
+        padding-bottom: 2%;
+    }
+
+    header img {
+        width: 35%;
+        clip-path: inset(5% 5% 10% 0%);
+    }
+
+    .Product {
+        background-image: none;
+    }
+
+    h1 {
+        display: flex;
+        font-size: 70px;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    h4 {
+        font-size: 20px;
+        margin: 0 40px;
+    }
+
+    .Botones {
+        margin: 15px 40px;
+        width: 300px;
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .span {
+        font-size: 15px;
+    }
+
+    .Boton_2 {
+        display: contents;
+    }
+
+
+
+    nav {
+        padding: 0px;
+    }
+
+    ul {
+        font-size: 25px;
+    }
+
+    nav ul {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .Download {
+        padding: 9px 4px;
+        font-size: 15px;
+        margin-right: 9px;
+        margin-left: 3px;
+
+    }
+
+    .Fondo_transparente {
+        display: none;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        width: 100%;
+
+    }
+
+    .Parrafo_1 {
+        margin: 0 10%;
+        font-size: 15px;
+    }
+
+    .Marketing {
+        margin: 0 10%;
+        font-size: 26px;
+
+    }
+
+    .Chulo {
+        width: 20px;
+    }
+
+    .Titulo_1 {
+        font-size: 40px;
+        margin-top: 6px;
+
+    }
+
+    .Alpha {
+        width: 100%;
+        height: 100%;
+        margin-right: 30px;
+        margin-top: 1px;
+    }
+
+    .Foncti{
+        height: 100%;
+        padding-bottom: 10px;
+    }
+
+    .Plans_1 {
+        gap: 30px;
+
+    }
+
+    .Titulo_2 {
+        font-size: 50px;
+    }
+
+    .Containers {
+        display: contents;
+    }
+
+    .Items {
+        width: 70%;
+        margin-right: 19%;
+    }
+
+    h5 {
+        font-size: 45px;
+    }
+
+    .Plans_2 {
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .Letra_Rosa {
+        font-size: 20px;
+    }
+
+    .Letra {
+        font-size: 20px;
+    }
+
+    .Subscribe {
+        width: 200px;
+        height: 60px
+    }
+
+    .Letra_Gris {
+        font-size: 20px;
+    }
+
+    .copyright {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .Redes_sociales {
+        margin-right: 10px;
+    }
+
+    .Boton_2 {
+        width: 30px;
+    }
+
+    footer {
+        padding: 0px 0px 0px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:920px) {
+    header {
+        width: 100%;
+
+    }
+
+    .Product_1 {
+        width: 30%;
+    }
+
+    .telefono {
+        width: 70%;
+        margin-left: 15%;
+
+    }
+
+    ul {
+        font-size: 25px;
+    }
+
+    .Download {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .Containers {
+        width: 86%;
+    }
+
+    .Botones {
+        width: 300px;
+        font-size: 100%;
+        margin-left: 8%;
+    }
+
+    .Titulo_1 {
+        font-size: 70px;
+        margin-top: 3px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    .Parrafo_1 {
+        font-size: 120%;
+    }
+
+    .Containers {
+        margin-right: 0px;
+    }
+
+    .Letra_Gris {
+        font-size: 22px;
+    }
+
+    .Letra_Rosa {
+        font-size: 22px;
+    }
+
+    .Letra {
+        font-size: 25px;
+    }
+
+
+    .Marketing {
+        font-size: 30px;
+    }
+
+    .Alpha {
+        margin-top: 10px;
+    }
+
+    .Chulo {
+        width: 30px;
+    }
+
+    .Plans_2 {
+        font-size: 25px;
+    }
+
+    .Items {
+        width: 100%;
+        height: 880px;
+        margin-left: 5px;
+        margin-right: 1%;
+
+    }
+
+
+    .Subscribe {
+        font-size: 20px;
+        width: 70%;
+        height: 7%;
+        margin-top: 20px;
+    }
+
+    .copyright {
+        font-size: 23px;
+    }
+
+    footer{
+        padding: 0px;
+    }
+
+    .Redes_sociales {
+        width: 100%;
+    }
+
+
+}
